@@ -1,11 +1,17 @@
 <template>
-  <div>
-    <h2>Home</h2>
+  <div id="home">
+    <nav-bar>
+      
+    </nav-bar>
   </div>
 </template>
 <script>
+import NavBar from 'components/common/navbar/NavBar'
 export default {
-  name:'Home'
+  name:'Home',
+  components:{
+    NavBar
+  }
 }
 </script>
 <style scoped>
